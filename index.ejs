@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ProBiz | Solusi Bisnis Anda</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body class="bg-white text-gray-900">
+
+  <%- include('partials/navbar') %>
+
+  <section class="text-center py-20 bg-blue-100" data-aos="fade-up">
+    <h1 class="text-5xl font-bold mb-4">Selamat Datang di ProBiz</h1>
+    <p class="text-lg mb-8">Meningkatkan potensi bisnis Anda bersama solusi terbaik.</p>
+    <a href="/contact" class="bg-blue-700 text-white px-6 py-3 rounded-full hover:bg-blue-800">Hubungi Kami</a>
+  </section>
+
+  <%- include('partials/footer') %>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
